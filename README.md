@@ -43,7 +43,7 @@ Feature categories include:
 ## Exploratory Data Analysis
 
 ### Churn Distribution
-![alt text](Visualizations/churn distribution.png)
+![alt text](<Visualizations/churn distribution.png>)
 
 - 85.5% of customers did **not churn**
 - 14.5% of customers **churned**
@@ -94,7 +94,8 @@ The **Tuned Random Forest** achieved the best overall performance.
 ---
 
 ## Feature Importance
-![alt text](Visualizations/Top Features.png)
+![alt text](<Visualizations/Top Features.png>)
+
 Key predictors of churn include:
 
 - Total day minutes
