@@ -43,7 +43,7 @@ Feature categories include:
 ## Exploratory Data Analysis
 
 ### Churn Distribution
-![alt text](<churn distribution.png>)
+![alt text](Visualizations/churn distribution.png)
 
 - 85.5% of customers did **not churn**
 - 14.5% of customers **churned**
@@ -53,7 +53,7 @@ This imbalance means metrics like **recall, precision, and ROC-AUC** are importa
 ---
 
 ### Customer Service Calls vs Churn
-![alt text](output.png)
+![alt text](Visualizations/box.png)
 
 Customers who made **more customer service calls were more likely to churn**, suggesting dissatisfaction or unresolved service issues.
 
@@ -94,7 +94,7 @@ The **Tuned Random Forest** achieved the best overall performance.
 ---
 
 ## Feature Importance
-![alt text](<Top Features.png>)
+![alt text](Visualizations/Top Features.png)
 Key predictors of churn include:
 
 - Total day minutes
