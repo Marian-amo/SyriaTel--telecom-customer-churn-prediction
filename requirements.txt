@@ -1,0 +1,65 @@
+asttokens==3.0.1
+Bottleneck @ file:///C:/miniconda3/conda-bld/bottleneck_1761938212172/work
+certifi==2026.1.4
+charset-normalizer==3.4.4
+colorama==0.4.6
+comm==0.2.3
+contourpy @ file:///C:/miniconda3/conda-bld/contourpy_1763643941183/work
+cycler @ file:///C:/Users/task_176606795666152/croot/cycler_1766068071140/work
+debugpy==1.8.20
+decorator==5.2.1
+docopt==0.6.2
+executing==2.2.1
+fonttools @ file:///C:/Users/dev-admin/buildout/croot/fonttools_1768580908301/work
+idna==3.11
+ipykernel==7.2.0
+ipython==9.10.0
+ipython_pygments_lexers==1.1.1
+jedi==0.19.2
+Jinja2==3.1.6
+joblib==1.5.3
+jupyter_client==8.8.0
+jupyter_core==5.9.1
+kiwisolver @ file:///C:/miniconda3/conda-bld/kiwisolver_1764159361484/work
+MarkupSafe==3.0.3
+matplotlib==3.10.8
+matplotlib-inline==0.2.1
+mkl-service==2.5.2
+mkl_fft @ file:///C:/miniconda3/conda-bld/mkl_fft_1761592920453/work
+mkl_random @ file:///C:/miniconda3/conda-bld/mkl_random_1761593081220/work
+nest-asyncio==1.6.0
+numexpr @ file:///C:/miniconda3/conda-bld/numexpr_1762165726164/work
+numpy @ file:///C:/Users/task_176837630250155/croot/numpy_and_numpy_base_1768376421945/work/dist/numpy-2.4.1-cp314-cp314-win_amd64.whl#sha256=0b150930ee2ab133311ccdffa0173c240e53c5e8cba0cb4cdb4a4a3d27d7fea4
+packaging @ file:///C:/miniconda3/conda-bld/packaging_1761049098810/work
+pandas @ file:///C:/miniconda3/conda-bld/pandas_1762332435977/work/dist/pandas-2.3.3-cp314-cp314-win_amd64.whl#sha256=ac6b8c30836d425b7de9199ad67d79b5d4d36663122fd5a70d81bfc894c0da42
+parso==0.8.6
+patsy==1.0.2
+pillow @ file:///C:/Users/dev-admin/buildout/croot/pillow_1762547797675/work
+pipreqs==0.4.13
+platformdirs==4.9.2
+prompt_toolkit==3.0.52
+psutil==7.2.2
+pure_eval==0.2.3
+Pygments==2.19.2
+pyparsing @ file:///C:/miniconda3/conda-bld/pyparsing_1763973805642/work
+PyQt6==6.9.1
+PyQt6_sip @ file:///C:/Users/dev-admin/buildout/croot/pyqt-split_1759966266962/work/pyqt_sip
+python-dateutil @ file:///C:/Users/dev-admin/buildout/croot/python-dateutil_1759954839763/work
+pytz @ file:///C:/Users/dev-admin/buildout/croot/pytz_1759958332927/work
+pyzmq==27.1.0
+requests==2.32.5
+scikit-learn==1.8.0
+scipy==1.17.1
+seaborn @ file:///C:/Users/dev-admin/buildout/croot/seaborn_1762566511451/work
+setuptools==80.10.2
+sip @ file:///C:/Users/dev-admin/buildout/croot/sip_1761943990339/work
+six @ file:///C:/Users/dev-admin/buildout/croot/six_1759954493303/work
+stack-data==0.6.3
+statsmodels==0.14.6
+threadpoolctl==3.6.0
+tornado @ file:///C:/Users/dev-admin/buildout/croot/tornado_1768567268628/work
+traitlets==5.14.3
+tzdata @ file:///home/task_176829656558347/croot/python-tzdata_1768296637279/work
+urllib3==2.6.3
+wcwidth==0.6.0
+yarg==0.1.10
