@@ -177,12 +177,12 @@ Key libraries used:
 
 ---
 
-📦 Customer-Churn-Prediction
+**Project Structure**
 │
-├── 📁 Data
+├── Data/
 │   └── bigml_59c28831336c6604c800002a.csv
 │
-├── 📁 Visualizations
+├── Visualizations/
 │   ├── churn_distribution.png
 │   ├── customer_service_calls_vs_churn.png
 │   ├── day_usage_vs_churn.png
@@ -191,6 +191,7 @@ Key libraries used:
 │   ├── feature_importance.png
 │   ├── roc_curve.png
 │   └── confusion_matrix.png
+│
 ├── notebook.ipynb
 ├── requirements.txt
 └── README.md
