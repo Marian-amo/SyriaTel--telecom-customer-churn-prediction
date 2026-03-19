@@ -50,10 +50,9 @@ The dataset contains **3,333 customer records** with 21 features, including:
 * Customer interactions (customer service calls)
 
 ### Target Variable
-![alt text](<Visualizations/churn distribution.png>)
-
 * **churn** (0 = No, 1 = Yes)
 
+![alt text](<Visualizations/churn distribution.png>)
 ---
 
 ##  Data Preparation
@@ -109,6 +108,7 @@ An **iterative modeling approach** was used:
 
 * Hyperparameter tuning using GridSearchCV
 * Optimized for recall
+
  ![alt text](<Visualizations/churn distribution.png>)
 ---
 
@@ -137,6 +137,7 @@ The **Tuned Random Forest model** performed best, achieving:
 * High recall (better identification of churners)
 * Strong ROC-AUC score (good class separation)
 * Balanced performance across metrics
+
 ![alt text](<Visualizations/Tuned confusion matrix.png>)
 
 ---
@@ -190,7 +191,6 @@ Key libraries used:
 │   ├── feature_importance.png
 │   ├── roc_curve.png
 │   └── confusion_matrix.png
-│
 ├── notebook.ipynb
 ├── requirements.txt
 └── README.md
