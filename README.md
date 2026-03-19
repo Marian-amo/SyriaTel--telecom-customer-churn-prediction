@@ -51,8 +51,6 @@ The dataset contains **3,333 customer records** with 21 features, including:
 
 ### Target Variable
 * **churn** (0 = No, 1 = Yes)
-
-![alt text](<Visualizations/churn distribution.png>)
 ---
 
 ##  Data Preparation
