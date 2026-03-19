@@ -13,8 +13,13 @@ This project builds a **machine learning classification model** to predict wheth
 ## Business Understanding
 
 ### Stakeholder
+SyriaTel Management- use insights to support strategic decision-making and reduce customer loss
 
-Customer Retention Team at SyriaTel
+Customer Retention team- use churn predictions to focus on retention efforts on customers most likely to leave.
+
+Finance Department-revenue impact of churn and the return on investment of retention programmes
+
+Marketing Team-use the findings to design promotions and improve customer engagement on the company platform
 
 ### Business Problem
 
@@ -45,6 +50,7 @@ The dataset contains **3,333 customer records** with 21 features, including:
 * Customer interactions (customer service calls)
 
 ### Target Variable
+![alt text](<Visualizations/churn distribution.png>)
 
 * **churn** (0 = No, 1 = Yes)
 
@@ -75,7 +81,7 @@ Key insights from EDA:
 * Customers with **more customer service calls** are more likely to churn
 * Customers with **international plans** have higher churn rates
 * High **daytime usage** is associated with churn
-* Correlation analysis revealed **multicollinearity**, leading to feature removal
+* Correlation analysis revealed **multicollinearity**, leading to charge features removal
 
 ---
 
@@ -103,7 +109,7 @@ An **iterative modeling approach** was used:
 
 * Hyperparameter tuning using GridSearchCV
 * Optimized for recall
-
+ ![alt text](<Visualizations/churn distribution.png>)
 ---
 
 ##  Evaluation Metrics
@@ -131,6 +137,7 @@ The **Tuned Random Forest model** performed best, achieving:
 * High recall (better identification of churners)
 * Strong ROC-AUC score (good class separation)
 * Balanced performance across metrics
+![alt text](<Visualizations/Tuned confusion matrix.png>)
 
 ---
 
@@ -143,6 +150,8 @@ Top drivers of churn include:
 * High **daytime usage**
 * Low engagement with value-added services
 
+![alt text](<Visualizations/Top Features.png>)
+
 ---
 
 ## Business Recommendations
@@ -154,21 +163,6 @@ Top drivers of churn include:
 
 ---
 
-## Limitations
-
-* Dataset lacks customer satisfaction metrics
-* No external data (e.g., competitor pricing)
-* Model performance may change over time
-
----
-
-## Next Steps
-
-* Implement model in production for real-time churn prediction
-* Tune classification threshold for business needs
-* Explore advanced models (e.g., Gradient Boosting, XGBoost)
-* Incorporate additional behavioral data
-
 ---
 # Requirements
 
@@ -179,18 +173,24 @@ Key libraries used:
 * matplotlib
 * seaborn
 * scikit-learn
-* jupyter
 
 ---
 
-## Project Structure
-
-```
+📦 Customer-Churn-Prediction
+│
+├── 📁 Data
+│   └── bigml_59c28831336c6604c800002a.csv
+│
+├── 📁 Visualizations
+│   ├── churn_distribution.png
+│   ├── customer_service_calls_vs_churn.png
+│   ├── day_usage_vs_churn.png
+│   ├── correlation_heatmap.png
+│   ├── churn_correlation_heatmap.png
+│   ├── feature_importance.png
+│   ├── roc_curve.png
+│   └── confusion_matrix.png
+│
 ├── notebook.ipynb
-├── README.md
 ├── requirements.txt
-└── data/
-    └── churn.csv
-    
-```
-
+└── README.md
